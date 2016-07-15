@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+
+  "name": "Display Full Page Article",
+  "description": "This extension ensures full articles are displayed",
+  "version": "1.0",
+  
+  "background": {
+	"scripts": ["background.js"],
+	"persistent": false
+  },
+  "page_action": {
+	"default_title": "Displays full article",
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "tabs",
+	"declarativeContent"
+  ]
+}
